@@ -16,6 +16,7 @@ const config = {
     'plugin:react/jsx-runtime',
     'prettier',
     'plugin:tailwindcss/recommended',
+    'plugin:storybook/recommended',
   ],
   rules: {
     'no-duplicate-imports': 'error',
