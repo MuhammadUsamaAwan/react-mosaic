@@ -36,6 +36,7 @@ const config = {
         checksVoidReturn: { attributes: false },
       },
     ],
+    'react/prop-types': 'off',
   },
   settings: {
     tailwindcss: {
