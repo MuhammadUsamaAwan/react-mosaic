@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 
 import { AspectRatio } from '~/components/ui/aspect-ratio';
 
-describe('Alert Dialog', () => {
+describe('Aspect Ratio', () => {
   it('should render correctly', () => {
     const wrapper = render(
       <AspectRatio ratio={16 / 9}>
