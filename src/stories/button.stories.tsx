@@ -22,82 +22,82 @@ export default meta;
 
 type Story = StoryObj<typeof Button>;
 
-export const DefaultButton: Story = {
+export const Default: Story = {
   args: {
     children: 'Button',
   },
 };
 
-export const SuccessButton: Story = {
+export const Success: Story = {
   args: {
     variant: 'success',
     children: 'Button',
   },
 };
 
-export const WarningButton: Story = {
+export const Warning: Story = {
   args: {
     variant: 'warning',
     children: 'Button',
   },
 };
 
-export const DestructiveButton: Story = {
+export const Destructive: Story = {
   args: {
     variant: 'destructive',
     children: 'Button',
   },
 };
 
-export const OutlineButton: Story = {
+export const Outline: Story = {
   args: {
     variant: 'outline',
     children: 'Button',
   },
 };
 
-export const SecondaryButton: Story = {
+export const Secondary: Story = {
   args: {
     variant: 'secondary',
     children: 'Button',
   },
 };
 
-export const GhostButton: Story = {
+export const Ghost: Story = {
   args: {
     variant: 'ghost',
     children: 'Button',
   },
 };
 
-export const LinkButton: Story = {
+export const Link: Story = {
   args: {
     variant: 'link',
     children: 'Button',
   },
 };
 
-export const LargeButton: Story = {
+export const Large: Story = {
   args: {
     size: 'lg',
     children: 'Button',
   },
 };
 
-export const NormalButton: Story = {
+export const Normal: Story = {
   args: {
     children: 'Button',
   },
 };
 
-export const SmallButton: Story = {
+export const Small: Story = {
   args: {
     size: 'sm',
     children: 'Button',
   },
 };
 
-export const IconButton: Story = {
+export const Icon: Story = {
   args: {
     size: 'icon',
     variant: 'outline',

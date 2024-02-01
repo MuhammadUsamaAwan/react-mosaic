@@ -10,7 +10,7 @@ export default meta;
 
 type Story = StoryObj<typeof Alert>;
 
-export const DefaultAlert: Story = {
+export const Default: Story = {
   render: () => (
     <Alert>
       <AlertTitle>Heads up!</AlertTitle>
@@ -19,7 +19,7 @@ export const DefaultAlert: Story = {
   ),
 };
 
-export const DestructiveAlert: Story = {
+export const Destructive: Story = {
   render: () => (
     <Alert variant='destructive'>
       <AlertTitle>Heads up!</AlertTitle>
@@ -28,7 +28,7 @@ export const DestructiveAlert: Story = {
   ),
 };
 
-export const SuccessAlert: Story = {
+export const Success: Story = {
   render: () => (
     <Alert variant='success'>
       <AlertTitle>Heads up!</AlertTitle>
@@ -37,7 +37,7 @@ export const SuccessAlert: Story = {
   ),
 };
 
-export const WarningAlert: Story = {
+export const Warning: Story = {
   render: () => (
     <Alert variant='warning'>
       <AlertTitle>Heads up!</AlertTitle>

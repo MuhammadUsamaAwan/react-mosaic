@@ -16,41 +16,41 @@ export default meta;
 
 type Story = StoryObj<typeof Chip>;
 
-export const DefaultChip: Story = {
+export const Default: Story = {
   args: {
     children: 'Chip',
   },
 };
 
-export const SuccessChip: Story = {
+export const Success: Story = {
   args: {
     variant: 'success',
     children: 'Chip',
   },
 };
 
-export const WarningChip: Story = {
+export const Warning: Story = {
   args: {
     variant: 'warning',
     children: 'Chip',
   },
 };
 
-export const DestructiveChip: Story = {
+export const Destructive: Story = {
   args: {
     variant: 'destructive',
     children: 'Chip',
   },
 };
 
-export const OutlineChip: Story = {
+export const Outline: Story = {
   args: {
     variant: 'outline',
     children: 'Chip',
   },
 };
 
-export const SecondaryChip: Story = {
+export const Secondary: Story = {
   args: {
     variant: 'secondary',
     children: 'Chip',

@@ -9,7 +9,7 @@ export default meta;
 
 type Story = StoryObj<typeof Accordion>;
 
-export const SingleModeAccordion: Story = {
+export const SingleMode: Story = {
   render: () => (
     <Accordion type='single' collapsible>
       <AccordionItem value='item-1'>
@@ -30,7 +30,7 @@ export const SingleModeAccordion: Story = {
   ),
 };
 
-export const MulipleModeAccordion: Story = {
+export const MulipleMode: Story = {
   render: () => (
     <Accordion type='multiple'>
       <AccordionItem value='item-1'>

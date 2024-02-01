@@ -10,7 +10,7 @@ export default meta;
 
 type Story = StoryObj<typeof Card>;
 
-export const CardExample: Story = {
+export const Example: Story = {
   render: () => (
     <Card className='w-[350px]'>
       <CardHeader>

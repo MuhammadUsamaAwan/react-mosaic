@@ -10,7 +10,7 @@ export default meta;
 
 type Story = StoryObj<typeof Carousel>;
 
-export const SingleItemCarousel: Story = {
+export const SingleItem: Story = {
   render: () => (
     <div className='px-10'>
       <Carousel className='w-full max-w-xs'>
@@ -34,7 +34,7 @@ export const SingleItemCarousel: Story = {
   ),
 };
 
-export const MultiItemCarousel: Story = {
+export const MultiItem: Story = {
   render: () => (
     <div className='px-10'>
       <Carousel className='w-full max-w-xs'>
@@ -58,7 +58,7 @@ export const MultiItemCarousel: Story = {
   ),
 };
 
-export const SingleItemLoopCarousel: Story = {
+export const SingleItemLoop: Story = {
   render: () => (
     <div className='px-10'>
       <Carousel

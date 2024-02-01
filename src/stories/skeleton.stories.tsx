@@ -9,7 +9,7 @@ export default meta;
 
 type Story = StoryObj<typeof Skeleton>;
 
-export const SkeletonExample: Story = {
+export const Example: Story = {
   render: () => (
     <div className='flex items-center space-x-4'>
       <Skeleton className='size-12 rounded-full' />

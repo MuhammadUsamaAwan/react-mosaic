@@ -20,7 +20,7 @@ export default meta;
 
 type Story = StoryObj<typeof AlertDialog>;
 
-export const AlertDialogExample: Story = {
+export const Example: Story = {
   render: () => (
     <AlertDialog>
       <AlertDialogTrigger asChild>

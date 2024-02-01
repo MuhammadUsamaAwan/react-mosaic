@@ -10,13 +10,21 @@ export default meta;
 
 type Story = StoryObj<typeof Avatar>;
 
-export const AvatarExample: Story = {
+export const Example: Story = {
   render: () => (
     <Avatar>
       <AvatarImage src='https://github.com/shadcn.png' alt='@shadcn' />
       <AvatarFallback>
         <Skeleton className='size-full' />
       </AvatarFallback>
+    </Avatar>
+  ),
+};
+
+export const Fallback: Story = {
+  render: () => (
+    <Avatar>
+      <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
 };
