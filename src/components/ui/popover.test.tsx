@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 
 import { Popover, PopoverContent, PopoverTrigger } from '~/components/ui/popover';
 
-describe('Label', () => {
+describe('Popover', () => {
   it('should render correctly', () => {
     const wrapper = render(
       <Popover>

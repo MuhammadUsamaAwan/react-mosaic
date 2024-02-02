@@ -1,4 +1,4 @@
-import { ArrowLeft, ArrowRight, Check, ChevronDown, Terminal } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, ChevronDown, Terminal, X } from 'lucide-react';
 
 export const Icons = {
   arrowLeft: ArrowLeft,
@@ -6,4 +6,5 @@ export const Icons = {
   check: Check,
   chevronDown: ChevronDown,
   terminal: Terminal,
+  x: X,
 };
