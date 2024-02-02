@@ -21,7 +21,7 @@ const chipVariants = cva(
   }
 );
 
-export interface ChipProps extends React.HTMLAttributes<HTMLDivElement>, VariantProps<typeof chipVariants> {}
+export type ChipProps = React.HTMLAttributes<HTMLDivElement> & VariantProps<typeof chipVariants>;
 
 function Chip({ className, variant, ...props }: ChipProps) {
   return <div className={cn(chipVariants({ variant }), className)} {...props} />;
